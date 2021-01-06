@@ -1,43 +1,48 @@
-body{
+body {
     font-family: 'Acme', sans-serif;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
 }
-section.top-class{
-    height: 780px;
-}
-section.middle-class{
+
+section.top-class {
     height: 780px;
 }
 
-.navigation-bar{
+section.middle-class {
+    height: 780px;
+}
+
+.navigation-bar {
     float: right;
     padding: 20px;
     font-family: 'Acme', sans-serif;
     margin-top: 10px;
     margin-bottom: 2px;
 }
-.navigation-bar a{
+
+.navigation-bar a {
     text-decoration: none;
     padding: 50px;
     color: rgb(0, 0, 0);
     font-size: 23px;
 }
-.half-width{
-    
+
+.half-width {
     width: 35%;
     color: dimgray;
     float: left;
 }
-.name-block{
+
+.name-block {
     padding-left: 100px;
     padding-top: 5px;
     padding-bottom: 40px;
     padding-right: 80px;
     font-size: 20px;
 }
-.name-block #hire-me-button{
+
+.name-block #hire-me-button {
     text-decoration: none;
     border-radius: 7px;
     background-image: linear-gradient(45deg, rgb(90, 0, 0), rgb(255, 81, 50));
@@ -45,19 +50,23 @@ section.middle-class{
     padding: 15px;
     padding-left: 35px;
     padding-right: 35px;
-    font-size: 26px ;
+    font-size: 26px;
 }
-.name-block #hire-me-button:hover{
-    background-image: linear-gradient(45deg, rgb(255, 81, 50), rgb(90,0,0));
+
+.name-block #hire-me-button:hover {
+    background-image: linear-gradient(45deg, rgb(255, 81, 50), rgb(90, 0, 0));
     color: rgb(232, 204, 240);
 }
-.top-class .image-block{
+
+.top-class .image-block {
     margin-left: 170px;
 }
-.middle-class .image-block{
+
+.middle-class .image-block {
     margin-top: 80px;
 }
-.top-class .name-block{
+
+.top-class .name-block {
     background-color: rgb(6, 9, 56);
     margin-top: 100px;
     margin-left: 80px;
@@ -65,7 +74,8 @@ section.middle-class{
     border-radius: 10px;
     box-shadow: 10px 10px 40px 5px rgb(0, 0, 0);
 }
-.middle-class .name-block{
+
+.middle-class .name-block {
     background-color: rgb(48, 7, 7);
     margin-top: 190px;
     margin-left: 280px;
@@ -73,58 +83,60 @@ section.middle-class{
     border-radius: 10px;
     box-shadow: 10px 10px 40px 5px rgb(0, 0, 0);
 }
-.lower-class{
+
+.lower-class {
     background-color: rgb(245, 243, 243);
     height: 800px;
     margin-top: 80px;
 }
-.lower-class a{
+
+.lower-class a {
     text-decoration: none;
     color: black;
 }
-.lower-class h1{
+
+.lower-class h1 {
     font-size: 45px;
     text-align: center;
     text-shadow: 2px 2px 2px dimgrey;
     font-weight: 600;
 }
-.one-third{
+
+.one-third {
     width: 25%;
     border: 1px solid rgb(255, 253, 253);
     padding: 2%;
-    background-color: rgb(236, 225, 225);
+    background-color: rgb(214, 228, 182);
     border-radius: 5px;
     margin: 30px;
-    box-shadow: 3px 3px 10px black;
-}
-.one-third{
+    box-shadow: 5px 5px 0px black;
     float: left;
 }
-.bonus-block{
-    background-color: rgb(226, 220, 213);
-   padding:10px;
-   margin: 80px 20px;
 
+.bonus-block {
+    background-color: rgb(226, 220, 213);
+    padding: 10px;
+    margin: 80px 20px;
 }
+
 .fa {
     padding: 20px;
     font-size: 20px;
     width: 50px;
-    height: px;
-    text-align: center;
-    text-decoration: none;
     margin: 5px 2px;
-  }
+}
+
 .fa-facebook {
     background: #3B5998;
     color: white;
-  }
-  .fa-twitter {
+}
+
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
-  .fa-linkedin {
+}
+
+.fa-linkedin {
     background: #007bb5;
     color: white;
-  }
-  
+}
